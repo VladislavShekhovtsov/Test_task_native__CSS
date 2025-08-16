@@ -49,14 +49,6 @@
         padding: 10px 0;
     }
 
-    /* стрелочку можно поворачивать при открытии */
-    .drop-menu::after {
-        transition: transform 0.3s ease;
-    }
-
-    .menu-list__item.active.drop-menu::after {
-        transform: rotate(180deg);
-    }
 
     #burger:checked+label+nav {
         display: flex;
